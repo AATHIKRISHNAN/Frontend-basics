@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+	<script type="text/javascript" src="calculator.js">
+		
+	</script>
+
+</head>
+<body>
+	<h1>Basic Calculator</h1>
+	<div class=body>
+		<div id="text"><input id="value" type="number" value="">
+		    <input id="opt" type="text"></div>
+		<div id="calc">
+	    <table id="input">
+		    
+			<tr>
+				<th><input onclick="func7()" type="button" value=7 id="7"></th>
+				<th><input onclick="func8()" type="button" value=8 id="8"></th>
+				<th><input onclick="func9()" type="button" value=9 id="9"></th>
+				
+			</tr>
+			<tr>
+				<th><input onclick="func4()" type="button" value=4 id="4"></th>
+				<th><input onclick="func5()" type="button" value=5 id="5"></th>
+				<th><input onclick="func6()" type="button" value=6 id="6"></th>
+				
+			</tr>
+			<tr>
+				<th><input onclick="func1()" type="button" value=1 id="1"></th>
+				<th><input onclick="func2()" type="button" value=2 id="2"></th>
+				<th><input onclick="func3()" type="button" value=3 id="3"></th>
+				
+			</tr>
+			<tr>
+				<th><input onclick="func0()" type="button" value=0 id="0"></th>
+				<th><input onclick="funcdt()" type="button" value="." id="."></th>
+				<th><input onclick="funce()" type="button" value="=" id="="></th>
+				
+			</tr>
+		</table>
+		<table id="op">
+			<tr>
+				<td><input onclick="funcc()" type="button" value="<x" id="clear"></td>
+			</tr>
+			<tr>
+				<th><input onclick="funcd()" type="button" value="/" id="/"></th>
+			</tr>
+			<tr>	
+				<th><input onclick="funcm()" type="button" value="*" id="*"></th>
+			</tr>
+			<tr>	
+				<th><input onclick="funcs()" type="button" value="-" id="-"></th>
+			</tr>
+			<tr>	
+				<th><input onclick="funca()" type="button" value="+" id="+"></th>
+			</tr>
+		</table>
+		</div>
+	</div>
+	<p>&copy copyright this website designed and maintained by Aathikrishnan</p>
+</body>
+<!-- <script>
+	window.onload = function() {  // reload file every second
+		setInterval(function() { location.reload(); } , 1000);
+	};
+</script>  -->
+
+</html>
